@@ -80,7 +80,13 @@ public class ChickaChicka
 		this.timeHours = hours;
 	}
 	
-	
+	public String toString()
+	{
+		String description = "This is a Run!";
+		description += " The Run is named " + name;
+		description += " and it took " + timeMinutes + " minutes to run";
+		return description;
+	}
 	
 	public void updateTime(int hours, int minutes)
 	{
