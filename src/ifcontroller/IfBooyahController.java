@@ -119,7 +119,7 @@ public class IfBooyahController
 		for (ChickaChicka current : myRuns)
 		{
 			JOptionPane.showMessageDialog(null, "This chicka chicka is named: " + current.getName());
-		}
+		} 
 		
 	}
 	
